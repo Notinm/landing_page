@@ -1,0 +1,36 @@
+.header {
+    overflow: hidden;
+    background-color: burlywood;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 25px;
+    border-radius: 5px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: rgb(151,87,43);
+    color: black;
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px
+    }
+
