@@ -1,36 +1,74 @@
-.header {
-    overflow: hidden;
-    background-color: burlywood;
-    padding: 20px 10px;
-  }
-  
-  .header a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 22px;
-    line-height: 25px;
-    border-radius: 5px;
-  }
-  
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  .header a:hover {
-    background-color: rgb(151,87,43);
-    color: black;
-  }
-  
-  .header-right {
-    float: right;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px
-    }
+  font-family: 'Roboto', sans-serif;
+}
 
+.top-structure{
+  background-color: #1F2937;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-logo{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+ul {
+  display: flex;
+  justify-content: row;
+}
+
+.header-link{
+  margin-right: 50px;
+}
+
+.navbar-logo, .navbar-options{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-options{
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 10px;
+}
+
+.content{
+  background-color: #1F2937;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.content-small{
+  color: #E5E7EB;
+}
+
+.content{
+  display:flex;
+  justify-content: row;
+}
+
+.content-left, .content-right{
+  display:flex;
+  width:50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
